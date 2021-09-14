@@ -36,7 +36,6 @@ body {
 .flog>.dance>label>span {
     font-size: 1rem;
     margin-right: 85px;
-    /* color: #5E2A45; */
 }
 #notify-form{
     margin-top:10vh;
@@ -122,9 +121,6 @@ body {
 }
 
 nav {
-    /* position: absolute !important; */
-    /* top: 0; */
-    /* left: 0; */
     width: 100%;
     background: rgba(255, 255, 255, 0.5);
 }
@@ -138,13 +134,8 @@ nav {
     color: #081B33;
     text-decoration: none;
     font-family: 'Poppins';
-    /* font-weight:bolder; */
     font-size:16px;
 }
-
-/* .cat a:visited {
-    color: rgb(250, 250, 250);
-} */
 
 .how >a::after,  .under >a::after{
     content: "";
@@ -164,8 +155,6 @@ nav {
     width: 120px;
     height: 120px;
 }
-
-
 .cat>ul {
     display: inline;
     padding: 0;
@@ -178,7 +167,6 @@ nav {
 .img-style{
     object-fit: contain;
     margin-top:-15vh;
-    /* margin-left:10vh; */
 }
 
 .cat>ul>li {
@@ -196,7 +184,6 @@ nav {
 }
 .rec_flex {
     display: flex;
-    /* margin-top: -7vh; */
     flex-direction: row;
     justify-content: flex-end;
 }
@@ -233,8 +220,6 @@ header {
 }
 .top {
     padding: 0.5rem 0 0.5rem 4rem !important;
-    /* background-color: #ff0; */
-    /* height: 50vh; */
     margin-top:5vh;
     display: flex;
     flex-direction: row;
@@ -261,7 +246,6 @@ header {
     color:#6B7685;
     font-size: 1.3rem;
     font-family: 'DM Sans', sans-serif;
-    /* background-color: #ff0; */
     width:90%;
     margin: 5vh 0;
 }
@@ -271,11 +255,6 @@ header {
     padding:2% 5%;
     font-size: 0.85rem;
     border-radius: 7px;
-}
-#topRight{
-    /* height:40vh; */
-    /* width:50%; */
-    /* background-color: #00f; */
 }
 
 .sections{
@@ -300,7 +279,6 @@ header {
     color:#6B7685;
     font-size: 1.3rem;
     font-family: 'DM Sans', sans-serif;
-    /* background-color: #ff0; */
     width:90%;
     margin: 2vh 0;
 }
@@ -339,7 +317,6 @@ header {
 }
 #footer{
     background-color: #081B33;
-    /* height:20vh; */
 }
 .footer_text{
     color:#fff;
@@ -381,11 +358,9 @@ header {
 }
 #green{
     background: #F6FCFB;
-    /* opacity: 0.05; */
 }
 #red{
     background: #FBF6FD;
-    /* opacity: 0.05; */
 }
 #spinner{
     margin-top:20vh; 
@@ -522,7 +497,6 @@ header {
         left: 4px;
         margin-top: 3.5rem;
         margin-right: 0;
-        /* background-color: #5151E0; */
     }
     .but{
         border: 0;
