@@ -260,7 +260,13 @@ header {
     font-size: 0.85rem;
     border-radius: 7px;
 }
-
+#topLeft >a:hover{
+    text-decoration: none;
+    background-color: #5151E0;
+    opacity: 0.5;
+    color: #fff;
+    border: 1px solid #5151E0;
+}
 .sections{
     padding:5vh 15vh;
 }
