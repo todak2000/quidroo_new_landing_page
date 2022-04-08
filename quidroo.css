@@ -38,7 +38,7 @@ body {
     margin-right: 85px;
 }
 #notify-form{
-    margin-top:10vh;
+    margin-top:0;
     padding-right: 10vh;
 }
 .about_flex{
@@ -67,7 +67,10 @@ body {
     width:40%;
 }
 .text3_card{
-    width:45%;
+    width:100%;
+}
+#topRight{
+    width:48%;
 }
 .text2_card{
     width:55%;
@@ -217,11 +220,12 @@ header {
 }
 #hero{
     background-color: #fff;
+    padding:0 !important;
     
 }
 .top {
     padding: 0.5rem 0 0.5rem 4rem !important;
-    margin-top:5vh;
+    /* margin-top:5vh; */
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -230,8 +234,8 @@ header {
     font-size: 3.0rem;
 }
 #topLeft{
-    width:45%;
-    padding-top:10vh;
+    width:50%;
+    /* padding-top:10vh; */
 }
 #thirty{
     color:#EACE49;
@@ -380,7 +384,7 @@ header {
     margin-top:20vh; 
 }
 #image-div, #image-div-two{
-    margin-top:30vh;
+    margin-top:20vh;
 }
 .how_card>p{
     color:#6B7685;
@@ -452,6 +456,9 @@ header {
 
 
 @media (max-width: 770px) {
+    #topRight{
+        width:100%;
+    }
     #aboutdesktop {
         padding-bottom: 0;
         padding-top: 0;
@@ -493,7 +500,7 @@ header {
     }
     #topLeft {
         width: 65%;
-        padding-top: 10%;
+        /* padding-top: 10%; */
     }
     #topLeft >h1{
         font-size:1.5rem;
@@ -661,7 +668,7 @@ header {
     }
     .top {
         padding: 0.5rem 0 0.5rem 0.5rem !important;
-        margin-top:5vh;
+        margin-top:0vh;
         display: flex;
         flex-direction: column;
     }
@@ -675,7 +682,7 @@ header {
     #topLeft >p{
         font-size: 1.2rem;
         width:100%;
-        margin: 5vh 0;
+        margin: 1vh 0;
     }
     #topLeft >a{
         background-color: #5151E0;
