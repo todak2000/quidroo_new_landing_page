@@ -1,5 +1,4 @@
-base_url_local = "http://127.0.0.1:8000/server"
-base_url = "https://roca-ajanaku.herokuapp.com/server"
+base_url = "https://quidroo-be.herokuapp.com"
 $(function() {
     $('#form_submit_button').on('click', function(e) {
         e.preventDefault();
@@ -32,7 +31,7 @@ $(function() {
 
         }
         $.ajax({
-            url: base_url + '/quidroo',
+            url: base_url + '/notify_me',
             type: 'POST',
             contentType: "application/json; charset=utf-8",
             dataType: "json",
